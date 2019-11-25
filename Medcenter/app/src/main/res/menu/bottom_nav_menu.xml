@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/pacient"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_dates"
+        android:icon="@drawable/calendar"
+        android:title="@string/title_date" />
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/title_logout" />
+
+</menu>

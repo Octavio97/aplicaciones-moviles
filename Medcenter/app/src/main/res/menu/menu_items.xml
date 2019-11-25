@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnEdit"
+        android:icon="@drawable/edit"
+        android:title="Editar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/btnAdd"
+        android:icon="@drawable/add"
+        android:title="Nuevo"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

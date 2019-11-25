@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P3DosActividades</string>
+    <string name="other_activity_button">Ir a otra actividad</string>
+    <string name="mostrar_button">Mostrar</string>
+</resources>

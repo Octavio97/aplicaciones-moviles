@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CITTMe</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_date">Citas</string>
+    <string name="title_logout">Cerrar sesión</string>
+    <string name="name">Nombre</string>
+    <string name="last">Apellidos</string>
+    <string name="address">Dirección</string>
+    <string name="born">Fecha de nacimiento</string>
+    <string-array name="usuarios">
+        <item name="instruction">Tipo de usuario</item>
+        <item name="doctor">Doctor</item>
+        <item name="pacient">Paciente</item>
+    </string-array>
+    <string-array name="especialidades">
+        <item name="1">Pediatra</item>
+        <item name="2">General</item>
+        <item name="4">Internista</item>
+        <item name="5">Ginecólogo</item>
+        <item name="6">Neurólogo</item>
+        <item name="7">Otorrinolaringologo</item>
+        <item name="8">Cardiólogo</item>
+        <item name="9">Urólogo</item>
+        <item name="10">Traumatólogo</item>
+        <item name="11">Oftalmólogo</item>
+        <item name="12">Reumatólogo</item>
+        <item name="13">Gastroenterólogo</item>
+        <item name="14">Alergólogo</item>
+        <item name="15">Neumólogo</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo">Foto</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

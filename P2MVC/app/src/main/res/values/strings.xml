@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P2MVC</string>
+    <string name="previous_button">Anterior</string>
+    <string name="next_button">Siguiete</string>
+</resources>

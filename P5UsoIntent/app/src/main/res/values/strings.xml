@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">P5UsoIntent</string>
+    <string name="call_string">Llamar</string>
+    <string name="camera_string">Camara</string>
+    <string name="nav_string">Navegador</string>
+</resources>

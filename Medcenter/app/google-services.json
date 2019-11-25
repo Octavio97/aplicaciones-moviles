@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "922152287940",
+    "firebase_url": "https://medcenter-dc812.firebaseio.com",
+    "project_id": "medcenter-dc812",
+    "storage_bucket": "medcenter-dc812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922152287940:android:2808bbf66a1c70c7",
+        "android_client_info": {
+          "package_name": "com.trixx.medcenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922152287940-ffh3v3d9apdntnblmeinls1394vkvudc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trixx.medcenter",
+            "certificate_hash": "925150e79f1d7b301753b979f619a4e81beae552"
+          }
+        },
+        {
+          "client_id": "922152287940-qcj8mdg51p665ts6evftjesf6mng5eek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ezHGN1IkfTHh-EtclK_6P0mdMi5cyoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922152287940-qcj8mdg51p665ts6evftjesf6mng5eek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

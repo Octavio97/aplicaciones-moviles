@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677942281050",
+    "firebase_url": "https://cittme.firebaseio.com",
+    "project_id": "cittme",
+    "storage_bucket": "cittme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677942281050:android:e4dca29b79d97451282963",
+        "android_client_info": {
+          "package_name": "com.trixx.cittme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677942281050-vm9uc2o9jstvlarkg8eqkap6u3jrrgs0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trixx.cittme",
+            "certificate_hash": "0c6940fbf41eda4dc73be517773ed373da6866d6"
+          }
+        },
+        {
+          "client_id": "677942281050-616tfit6m5cof9eun2darcpghddsffpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwkXix4KujF0_bpPipvTvmD8sk0S2d27c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677942281050-616tfit6m5cof9eun2darcpghddsffpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
