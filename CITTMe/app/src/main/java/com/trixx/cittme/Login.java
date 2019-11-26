@@ -36,14 +36,14 @@ public class Login extends AppCompatActivity {
                     new AuthUI.IdpConfig.GoogleBuilder().build());
 
             // Create and launch sign-in intent
-            startActivityForResult(
-                    AuthUI.getInstance()
-                            .createSignInIntentBuilder()
-                            .setLogo(R.drawable.logo)
-                            .setAvailableProviders(providers)
-                            .setIsSmartLockEnabled(false)
-                            .build(),
-                    RC_SIGN_IN);
+                startActivityForResult(
+                        AuthUI.getInstance()
+                                .createSignInIntentBuilder()
+                                .setLogo(R.drawable.logo)
+                                .setAvailableProviders(providers)
+                                .setIsSmartLockEnabled(false)
+                                .build(),
+                        RC_SIGN_IN);
         } else {
             startActivity(new Intent(Login.this, Start.class));//start activity
         }
