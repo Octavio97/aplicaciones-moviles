@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.firebase.ui.auth.AuthUI;
@@ -129,5 +130,14 @@ public class Start extends AppCompatActivity implements Register.RegisterListene
                         }
                     });
         }
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode == KeyEvent.KEYCODE_BACK) {// if the button back of the mobile is pressed
+            Logout lg = new Logout();
+            lg.show(getSupportFragmentManager(), "Cerrar sesión");
+        }
+        return super.onKeyDown(keyCode, event);
     }
 }

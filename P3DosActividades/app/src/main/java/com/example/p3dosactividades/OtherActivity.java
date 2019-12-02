@@ -9,8 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class OtherActivity extends AppCompatActivity {
     private TextView mMessageTextView, mNameTextView;
     private static final String EXTRA_NAME_SHOWN = "name";
@@ -34,7 +32,7 @@ public class OtherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_other);
-        mMessageTextView = (TextView) findViewById(R.id.message_textview);
+        mMessageTextView = (TextView) findViewById(R.id.textView);
         mNameTextView = (TextView) findViewById(R.id.name_textView);
         mShowButton = (Button) findViewById(R.id.show_button);
 

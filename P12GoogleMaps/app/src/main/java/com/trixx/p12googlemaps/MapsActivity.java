@@ -1,6 +1,7 @@
 package com.trixx.p12googlemaps;
 
 import androidx.fragment.app.FragmentActivity;
+
 import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;

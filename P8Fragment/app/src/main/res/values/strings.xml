@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">P7Fragment</string>
+    <string name="app_name">P8Fragment</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="TxArticle">Article Fragment</string>
-    <string name="TxHeadline">Headline Fragment</string>
+    <string name="TxtArticle">Article Fragment</string>
+    <string name="TxtHeadline">Headline Fragment</string>
 </resources>

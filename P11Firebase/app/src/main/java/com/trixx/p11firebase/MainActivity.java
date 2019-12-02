@@ -33,13 +33,11 @@ public class MainActivity extends AppCompatActivity {
     Person personSelected;
 
     //Creacion e variables para manipulacion de Firebase
-    FirebaseDatabase mFirebaseDatabase;
     DatabaseReference mDatabaseReference;
 
     private void initializeFirebase() {
         FirebaseApp.initializeApp(this);
-        mFirebaseDatabase = FirebaseDatabase.getInstance();
-        mDatabaseReference = mDatabaseReference.getRef();
+        mDatabaseReference = FirebaseDatabase.getInstance().getReference();
     }
 
     @Override
